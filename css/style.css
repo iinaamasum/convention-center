@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@400;700&display=swap');
 
-*{
+body{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -36,4 +36,9 @@ span{
     margin-left: 0% !important;
     margin-right: 0% !important;
     border-left: 7px solid blue;
+}
+
+.card-body img{
+    height: 100px;
+    width: 100px;
 }
