@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@400;700&family=Roboto&display=swap');
 
 body{
     padding: 0%;
@@ -9,7 +9,7 @@ body{
 }
 
 span{
-    color: orangered;
+    color: wheat;
 }
 
 .carousel-item> img{
@@ -20,10 +20,6 @@ span{
 .row img{
     max-width: 100%;
     height: auto;
-}
-
-.custom-btn{
-    
 }
 
 .toast:not(.show) {
@@ -38,7 +34,32 @@ span{
     border-left: 7px solid blue;
 }
 
-.card-body img{
+.card-body .text-center img{
     height: 100px;
     width: 100px;
+}
+
+.check-mark> p{
+    font-size: 14px;
+}
+
+
+.row{
+    font-family: 'Roboto', sans-serif;
+}
+
+.special-card{
+    background-image: url("../icons/watermark.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px; 
+}
+
+.special-mark{
+    width: 50px;
+    position: relative;
+    top: -10px;
+    right: -250px;
 }
