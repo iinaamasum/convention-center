@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@400;700&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'PT Mono', monospace; */
 }
 
 span{
     color: orangered;
+}
+
+.carousel-item> img{
+    max-height: 605px;
+    min-height: 300px;
+}
+
+.row img{
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-btn{
+    
+}
+
+.toast:not(.show) {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    right: -200px;
+}
+.custom-toast{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    border-left: 7px solid blue;
 }
