@@ -5,11 +5,10 @@ body{
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'PT Mono', monospace; */
 }
 
 span{
-    color: wheat;
+    color: goldenrod;
 }
 
 .carousel-item> img{
